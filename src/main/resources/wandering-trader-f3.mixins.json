@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "odiwa.wanderingtraderf3.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "F3ScreenMixin",
+    "ServerWorldAccessor",
+    "WanderingTraderManagerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

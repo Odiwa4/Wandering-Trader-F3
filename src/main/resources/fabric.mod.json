@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "wandering-trader-f3",
+	"version": "1.0.0",
+	"name": "Wandering Trader F3",
+	"description": "This mod adds information about the Wandering Trader's spawning in the F3 screen.",
+	"authors": [
+		"Odiwa"
+	],
+	"license": "GPLv3",
+	"icon": "assets/wandering-trader-f3/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"odiwa.wanderingtraderf3.WanderingTraderF3"
+		],
+		"client": [
+			"odiwa.wanderingtraderf3.WanderingTraderF3Client"
+		]
+	},
+	"mixins": [
+		"wandering-trader-f3.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
